@@ -50,7 +50,7 @@ void run(const std::vector<engine::Point>& points, double rate) {
     std::cout << GREEN << "Графики сохранены в plots/" << RESET << "\n";
 }
 
-int main(int argc, char* argv[]) {
+int main() {
     try {
         std::ifstream input("data/variant10.txt");
         std::vector<engine::Point> points;
@@ -68,10 +68,6 @@ int main(int argc, char* argv[]) {
             throw std::runtime_error("Ожидалось 17 пар в data/variant10.txt");
 
         std::filesystem::create_directories("plots");
-        if (argc == 2 && std::string(argv[1]) == "--report") {
-            run(points, 0.5);
-            return 0;
-        }
 
         std::string choice;
         while (true) {

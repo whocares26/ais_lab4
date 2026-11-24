@@ -1,0 +1,64 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='760' height='530' viewBox='0 0 760 530'>
+<rect width='760' height='530' fill='white'/>
+<g font-family='sans-serif' font-size='12' fill='#243047'>
+<text x='380' y='31' text-anchor='middle' font-size='20'>Классический алгоритм. Единичные веса</text>
+<line x1='170' y1='480' x2='170' y2='60' stroke='#dbe2ea' stroke-width='1'/>
+<text x='170' y='498' text-anchor='middle'>-1</text>
+<line x1='275' y1='480' x2='275' y2='60' stroke='#dbe2ea' stroke-width='1'/>
+<text x='275' y='498' text-anchor='middle'>-0.5</text>
+<line x1='380' y1='480' x2='380' y2='60' stroke='#687689' stroke-width='1'/>
+<text x='380' y='498' text-anchor='middle'>0</text>
+<line x1='485' y1='480' x2='485' y2='60' stroke='#dbe2ea' stroke-width='1'/>
+<text x='485' y='498' text-anchor='middle'>0.5</text>
+<line x1='590' y1='480' x2='590' y2='60' stroke='#dbe2ea' stroke-width='1'/>
+<text x='590' y='498' text-anchor='middle'>1</text>
+<line x1='170' y1='480' x2='590' y2='480' stroke='#dbe2ea' stroke-width='1'/>
+<text x='162' y='484' text-anchor='end'>-1</text>
+<line x1='170' y1='375' x2='590' y2='375' stroke='#dbe2ea' stroke-width='1'/>
+<text x='162' y='379' text-anchor='end'>-0.5</text>
+<line x1='170' y1='270' x2='590' y2='270' stroke='#687689' stroke-width='1'/>
+<text x='162' y='274' text-anchor='end'>0</text>
+<line x1='170' y1='165' x2='590' y2='165' stroke='#dbe2ea' stroke-width='1'/>
+<text x='162' y='169' text-anchor='end'>0.5</text>
+<line x1='170' y1='60' x2='590' y2='60' stroke='#dbe2ea' stroke-width='1'/>
+<text x='162' y='64' text-anchor='end'>1</text>
+<text x='603' y='498'>x</text>
+<text x='162' y='48'>y</text>
+<circle cx='496.487' cy='444.731' r='4' fill='#187548' fill-opacity='.8'/>
+<circle cx='421.184' cy='475.922' r='4' fill='#bf4031' fill-opacity='.8'/>
+<circle cx='559.189' cy='379.505' r='4' fill='#8053a0' fill-opacity='.8'/>
+<circle cx='207.961' cy='390.427' r='4' fill='#a26200' fill-opacity='.8'/>
+<circle cx='564.358' cy='370.559' r='4' fill='#8053a0' fill-opacity='.8'/>
+<circle cx='561.74' cy='375.218' r='4' fill='#8053a0' fill-opacity='.8'/>
+<circle cx='219.369' cy='405.269' r='4' fill='#a26200' fill-opacity='.8'/>
+<circle cx='563.573' cy='371.985' r='4' fill='#8053a0' fill-opacity='.8'/>
+<circle cx='511.186' cy='433.982' r='4' fill='#187548' fill-opacity='.8'/>
+<circle cx='579.223' cy='336.408' r='4' fill='#8053a0' fill-opacity='.8'/>
+<circle cx='201.92' cy='381.3' r='4' fill='#a26200' fill-opacity='.8'/>
+<circle cx='587.143' cy='304.524' r='4' fill='#8053a0' fill-opacity='.8'/>
+<circle cx='214.236' cy='398.928' r='4' fill='#a26200' fill-opacity='.8'/>
+<circle cx='192.17' cy='363.915' r='4' fill='#a26200' fill-opacity='.8'/>
+<circle cx='584.999' cy='315.555' r='4' fill='#8053a0' fill-opacity='.8'/>
+<circle cx='227.55' cy='414.426' r='4' fill='#a26200' fill-opacity='.8'/>
+<circle cx='561.006' cy='376.474' r='4' fill='#8053a0' fill-opacity='.8'/>
+<line x1='380' y1='270' x2='170.076' y2='275.644' stroke='#1967b2' stroke-width='2'/>
+<line x1='170.076' y1='275.644' x2='178.818' y2='270.789' stroke='#1967b2' stroke-width='2'/>
+<line x1='170.076' y1='275.644' x2='179.067' y2='280.021' stroke='#1967b2' stroke-width='2'/>
+<text x='58' y='510' fill='#1967b2'>Нейрон 1 (0)</text>
+<line x1='380' y1='270' x2='421.184' y2='475.922' stroke='#bf4031' stroke-width='2'/>
+<line x1='421.184' y1='475.922' x2='414.917' y2='468.13' stroke='#bf4031' stroke-width='2'/>
+<line x1='421.184' y1='475.922' x2='423.973' y2='466.319' stroke='#bf4031' stroke-width='2'/>
+<text x='193' y='510' fill='#bf4031'>Нейрон 2 (1)</text>
+<line x1='380' y1='270' x2='503.927' y2='439.535' stroke='#187548' stroke-width='2'/>
+<line x1='503.927' y1='439.535' x2='494.965' y2='435.099' stroke='#187548' stroke-width='2'/>
+<line x1='503.927' y1='439.535' x2='502.421' y2='429.649' stroke='#187548' stroke-width='2'/>
+<text x='328' y='510' fill='#187548'>Нейрон 3 (2)</text>
+<line x1='380' y1='270' x2='572.194' y2='354.625' stroke='#8053a0' stroke-width='2'/>
+<line x1='572.194' y1='354.625' x2='562.216' y2='355.277' stroke='#8053a0' stroke-width='2'/>
+<line x1='572.194' y1='354.625' x2='565.937' y2='346.824' stroke='#8053a0' stroke-width='2'/>
+<text x='463' y='510' fill='#8053a0'>Нейрон 4 (8)</text>
+<line x1='380' y1='270' x2='209.743' y2='392.933' stroke='#a26200' stroke-width='2'/>
+<line x1='209.743' y1='392.933' x2='214.231' y2='383.997' stroke='#a26200' stroke-width='2'/>
+<line x1='209.743' y1='392.933' x2='219.637' y2='391.484' stroke='#a26200' stroke-width='2'/>
+<text x='598' y='510' fill='#a26200'>Нейрон 5 (6)</text>
+</g></svg>
